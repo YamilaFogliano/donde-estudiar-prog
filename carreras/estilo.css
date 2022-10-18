@@ -1,0 +1,163 @@
+body{
+  background: #150E3F; 
+  font-family: 'Secular One', sans-serif;
+} 
+
+.titulo{
+  color:#B440D3;
+  font-size:35px;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  text-align: center;
+}
+
+.subtitulo{
+  color:#966CD2; 
+  font-size:26px;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  text-align: center;
+}
+
+ .parrafo, .parrafo2, .parrafo3{ 
+  font-size:20px;
+  text-align: left;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.parrafo{
+  color:#40D397;
+}
+.parrafo2{
+  color:#40D397;
+  text-align: center;
+}
+.parrafo3{
+  color:#B440D3;
+}
+
+h3 {
+  color:#B440D3;
+  font-size:22px;
+  text-align: center;
+}
+
+a {
+  color:#31A8AB;
+  font-size:18px;
+  padding: 00px; 
+  line-height: 40px;  
+  margin-bottom: 40px; 
+}
+.espacio{
+  margin: 35px;
+}
+h4{
+ color:#966CD2; 
+ font-size:20px;
+ padding: 0px;
+ margin: 0px;
+}
+h5{
+ color:#40D397; 
+ font-size:16px;
+ padding: 0px;
+ margin: 0;
+} 
+footer{
+  text-align: center;
+  color: #40D397;
+}
+.aclaracion{
+  color:#B440D3;
+  margin: 5px;
+  
+}
+.imagen{
+ border-color: black;
+ border-width: 2px; 
+ border-style: solid;
+ margin: auto;
+ display: block;
+}
+
+.contenedor-imagen {
+  background-image: url(https://position1seo.co.uk/wp-content/uploads/2019/08/broad-core-algorithm-updates.jpg);
+}
+
+textarea {
+  resize: none;
+}
+
+input, textarea, button{
+  display: block;
+}
+
+input, textarea {  
+  font-family: 'Secular One', sans-serif;
+  width : 500px;
+  height: 30px;
+  border-width: 1px;
+  margin-bottom: 16px;
+  padding: 8px;
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+textarea{
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {  
+  font-family: 'Secular One', sans-serif;
+  width: 90px;
+  border-width: 1px;
+  margin-bottom: 16px;
+  padding: 6px;
+  border-radius: 16px;
+  background-color: #CDADF7;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+@media (max-width: 2160px) { 
+  h1{
+  font-size:30px  
+  } 
+  h2{
+   font-size:25px 
+  }
+  img{
+    height: 300px
+    width 300px
+  }
+}
+@media (min-width: 700px) { 
+  h1{
+  font-size:25px  
+  } 
+  h2{
+   font-size:20px 
+  }
+  p{
+    font-size:15px
+  }
+  
+  img{
+    height: 200px
+    width 200px 
+  } 
+}
+@media (max-width:700px) {
+  a{
+    display: block;
+  }  
+}
+
+
+.imagen-responsiva{
+ max-width: 100%;
+ height: auto;
+}
+
+.contenedor-universidad {
+  margin-bottom: 35px;
+}
