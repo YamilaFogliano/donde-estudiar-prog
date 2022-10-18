@@ -1,0 +1,121 @@
+body{
+    background: linear-gradient(to top,black,#1C0B04,black);
+    font-family: 'Secular One', sans-serif;
+  } 
+  
+  h4 {
+    color:darkred;
+    font-size:20px;
+    font-family: 'Secular One', sans-serif;
+  }
+  
+  a {
+    color:#581845;
+    font-size:17px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  input, button{
+    display: block;
+  }
+  
+  input, textarea {  
+    font-family: 'Secular One', sans-serif;
+    width : 180px;
+    border-width: 1px;
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 16px;
+  }
+  button {  
+    font-family: 'Secular One', sans-serif;
+    width: 60px;
+    border-width: 1px;
+    margin-bottom: 16px;
+    padding: 6px;
+    border-radius: 16px;
+    background-color: #CDC6C5;
+    }
+  
+  .titulo{
+    color:#581845;
+    font-size:30px;
+    font-family: 'Secular One', sans-serif;
+  }
+  
+  .subtitulo{
+    color:#900C3F;
+    font-size:25px;
+    font-family: 'Secular One', sans-serif;
+  }
+  .parrafo{
+    color:#FF5733;
+    font-size:20px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .parrafo2{
+    color:#C70039;
+    font-size:20px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .ul{
+   color:#FF5733;
+   font-size:16px;
+  }
+  .ol{
+   color:#FF5733; 
+   font-size:15px;
+  }
+  .imagen{
+   border-color: darkred;
+   border-width: 6px; 
+   border-style: solid;
+   border-radius: 60px; 
+  }
+  div{
+    text-align: center;
+  }
+  
+  @media (max-width: 2160px) { 
+    h1{
+    font-size:30px  
+    } 
+    h2{
+     font-size:25px 
+    }
+    img{
+      height: 300px
+      width 300px
+    }
+  }
+  @media (min-width: 700px) { 
+    h1{
+    font-size:25px  
+    } 
+    h2{
+     font-size:20px 
+    }
+    p{
+      font-size:15px
+    }
+    
+    img{
+      height: 200px
+      width 200px 
+    } 
+  }
+  @media (max-width:700px) {
+    a{
+      display: block;
+    }  
+  }
+  
+  
+  .imagen-responsiva{
+   max-width: 100%;
+   height: auto;
+  }
+  
